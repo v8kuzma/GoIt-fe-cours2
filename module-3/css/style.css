@@ -1,0 +1,57 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: yellow;
+    width: 1200px;
+    border: dotted;
+}
+header {
+    background-color:red;
+    width: 900px;
+    height: 180px;
+    text-align: center;
+    margin:75px 140px auto 140px;
+}
+.cards{
+    width: 420px;
+    height: 470px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 38px;
+    margin-bottom: 33px;
+}
+.card-box-two{
+    width: 420px;
+    height: 470px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 150px;
+    margin-top: 38px;
+}
+
+.box {
+background: red;
+display: inline-block;
+}
+.inline {
+    background: blue;
+}
+h4 {
+    margin-top: 31px;
+    margin-bottom: 33px;
+}
+p {
+    margin-top: 38px;
+    margin-bottom: 148px;
+}
+button{
+    width: 160px;
+    height: 60px;
+    margin-left: 570px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
