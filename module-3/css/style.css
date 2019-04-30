@@ -10,9 +10,11 @@ body {
    
 }
 header {
+    
     width: 900px;
     height: 99px;
     text-align: center;
+    margin: auto;
    
     }
 nav li {
@@ -21,9 +23,10 @@ nav li {
     margin-left: 60px;
     text-align: center;
     list-style: none;
-   
+
 
 }
+
 a {
 text-transform: uppercase;
 color: #000000;
@@ -40,7 +43,7 @@ nav {
   font-weight: bold;
   text-transform: none;
   list-style: none;
-  margin-left: 240px;
+  /* margin-left: 240px; */
 
   
  }
