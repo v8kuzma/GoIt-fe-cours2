@@ -3,59 +3,63 @@
   margin: 0;
   padding: 0;
 }
-
 body {
-    /* text-align: center; */
-    background-color: yellow;
-    width: 1200px;
-    border: dotted;
+    text-align: center; 
+    min-width: 100 vh;
 }
 header {
-    background-color:red;
     width: 900px;
-    height: 180px;
+    height: 99px;
+    }
+nav li {
+    display: inline;
+    margin-right: 60px;
+    margin-left: 60px;
     text-align: center;
-    margin:75px 140px auto 140px;
+    list-style: none;
 }
-.cards{
-    width: 420px;
-    height: 470px;
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: 38px;
-    margin-bottom: 33px;
+li a {
+text-transform: uppercase;
 }
-.card-box-two{
-    width: 420px;
-    height: 470px;
-    display: inline-block;
-    vertical-align: bottom;
-    margin-left: 150px;
-    margin-top: 38px;
+nav {
+ text-align: center;
+ font-family: "Playfair Display", serif;
+ font-size: 14px;
+ text-transform: uppercase;
+ margin-bottom: 103px;
+ margin-top: 49px;
+ font-weight: bold;
+ margin-left: 270px;
+ text-transform: none;
+ }
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
 }
-
-.box {
-background: red;
-display: inline-block;
-}
-.inline {
-    background: blue;
-}
-h4 {
-    margin-top: 31px;
-    margin-bottom: 33px;
+.card {
+display:inline-block;
+width: 420px;
+margin-right: 58px;
+font-family: 'Playfair Display', serif;
+text-align: left;
 }
 p {
     margin-top: 38px;
     margin-bottom: 148px;
+    font-size: 14px;
 }
 button{
     width: 160px;
     height: 60px;
-    margin-left: 570px;
-    margin-top: 54px;
+    margin-left: -52px;
+    margin-top: -git54px;
     margin-bottom: 54px;
 }
-a {
-    display: inline;
+h4 {
+    margin-top: 31px;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+h3{
+    line-height: 23px;
 }
