@@ -20,6 +20,7 @@ nav li {
     margin-left: 60px;
     text-align: center;
     list-style: none;
+   
 
 }
 a {
@@ -36,10 +37,12 @@ nav {
   margin-bottom: 103px;
   margin-top: 49px;
   font-weight: bold;
-  margin-left: 270px;
   text-transform: none;
   list-style: none;
+  margin-left: 240px;
+  width: 900px;
 
+  
  }
 .wrapper {
     width: 960px;
