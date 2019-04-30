@@ -6,10 +6,13 @@
 body {
     text-align: center; 
     min-width: 100 vh;
+    font-family: "Playfair Display", serif;
 }
 header {
     width: 900px;
     height: 99px;
+    text-align: center;
+   
     }
 nav li {
     display: inline;
@@ -17,20 +20,26 @@ nav li {
     margin-left: 60px;
     text-align: center;
     list-style: none;
+
 }
-li a {
+a {
 text-transform: uppercase;
+color: #000000;
+text-decoration: none;
+
+
 }
 nav {
- text-align: center;
- font-family: "Playfair Display", serif;
- font-size: 14px;
- text-transform: uppercase;
- margin-bottom: 103px;
- margin-top: 49px;
- font-weight: bold;
- margin-left: 270px;
- text-transform: none;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 103px;
+  margin-top: 49px;
+  font-weight: bold;
+  margin-left: 270px;
+  text-transform: none;
+  list-style: none;
+
  }
 .wrapper {
     width: 960px;
@@ -39,8 +48,8 @@ nav {
 .card {
 display:inline-block;
 width: 420px;
-margin-right: 58px;
-font-family: 'Playfair Display', serif;
+margin-right: 56px;
+vertical-align: top;
 text-align: left;
 }
 p {
@@ -62,4 +71,8 @@ h4 {
 }
 h3{
     line-height: 23px;
+}
+
+a:hover{
+    color: #03a9f4;
 }
