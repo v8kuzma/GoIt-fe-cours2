@@ -1,61 +1,193 @@
-* 
-{
+* {
   margin: 0;
   padding: 0;
 }
+.menu-click {
+  display: inline-block;
+}
+.logo {
+  float: left;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #555252;
+  text-decoration: none;
+}
+header::after {
+  display: table;
+  clear: both;
+  content: "";
+  margin-bottom: 111px;
+}
+.logo::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.menu {
+  float: right;
+}
+.header {    
+  margin: 40px auto 100px;
+  max-width: 1120px;
+ 
+}
+.menumarg {
+  margin-left: 34px;
+}
+.menu-link {
+  font-family: "Open sans";
+  text-decoration: none;
+  color: #0f0101;
+  text-transform: uppercase;
+}
+.menu-link:hover {
+  color: #1abc9c;
+}
+.title1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  font-family: roboto;
+  color: #515151;
+  text-transform: uppercase;
+}
+.title1::after {
+  margin: 20px auto 30px;
+  display: block;
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: #19bb9b;
+  margin-bottom: 91px;
+}
+.products{
+  margin: auto auto 104px;
+  width: 1117px;
+}
 
-body {
-    /* text-align: center; */
-    background-color: yellow;
-    width: 1200px;
-    border: dotted;
-}
-header {
-    background-color:red;
-    width: 900px;
-    height: 180px;
-    text-align: center;
-    margin:75px 140px auto 140px;
-}
-.cards{
-    width: 420px;
-    height: 470px;
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: 38px;
-    margin-bottom: 33px;
-}
-.card-box-two{
-    width: 420px;
-    height: 470px;
-    display: inline-block;
-    vertical-align: bottom;
-    margin-left: 150px;
-    margin-top: 38px;
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.wrap {
+  width: 255px;
+  height: 283px;
 }
 
-.box {
-background: red;
-display: inline-block;
+.info {
+  width: 255px;
+  height: 40px;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 900;
 }
-.inline {
-    background: blue;
+.product:hover .nprod{
+  background-color:#1abc9c
 }
-h4 {
-    margin-top: 31px;
-    margin-bottom: 33px;
+.product:hover .price{
+  background:#7fd9c7
 }
-p {
-    margin-top: 38px;
-    margin-bottom: 148px;
+
+
+.nprod {
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  float: left;
+  line-height: 40px;
+  background-color: #323232;
+  box-sizing: border-box;
+  padding-left: 30px
+  
 }
-button{
-    width: 160px;
-    height: 60px;
-    margin-left: 570px;
-    margin-top: 54px;
-    margin-bottom: 54px;
+.price {
+  background-color: #8c8c8c;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: 55px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
 }
-a {
-    display: inline;
+
+.price::before {
+  content: "$";
 }
+
+.product {
+  
+  font-size: 0;
+  height: 282px;
+  float: left;
+ margin-right: 30px;
+ margin-bottom: 70px;
+ display: block;
+ content: "";
+ display: table;
+ box-sizing: border-box;
+ 
+}
+.product:nth-of-type(4n){
+  margin-right: 0;
+}
+
+.wrap2{
+
+  height: 262px;
+}
+
+.new{
+width: 350px;
+margin-bottom: 20px;
+float: left;
+margin-right: 30px
+}
+.new:nth-of-type(3n){
+  margin-right: 0;
+}
+.titnew{
+ font-size: 18px;
+ font-family: "open sans";
+ color: #555252
+
+}
+.titnew::after {
+  
+  display: block;
+  content: "";
+  width: 136px;
+  height: 3px;
+  background-color: #19bb9b;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.titaft{
+  font-family: "open sans";
+  font-size: 14px;
+  color: #555252;
+  margin-bottom: 30px
+}
+.btn{
+  height: 51px;
+  width: 159px;
+  background-color: #4ec6ab;
+  border: none;
+  border-radius: 4px;
+}
+.btn:hover{
+  background-color: lightseagreen
+}
+.btntxt{
+  font-family: "open sans";
+  font-size: 16px;
+  color: white;
+  font-weight: 200
+}
+.news{
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
